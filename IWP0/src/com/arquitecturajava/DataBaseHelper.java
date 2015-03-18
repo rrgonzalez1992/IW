@@ -15,7 +15,7 @@ public class DataBaseHelper<T> {
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
 	private static final String URL = "jdbc:mysql://localhost/arquitecturajava";
 	private static final String USUARIO = "root";
-	private static final String CLAVE = "osboxes.org";
+	private static final String CLAVE = "Luisfernando1";
 	private static final Logger log = Logger.getLogger(DataBaseHelper.class
 			.getPackage().getName());
 

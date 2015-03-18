@@ -23,8 +23,6 @@
 			List<String> listaDeCategorias=null;
 		
 		listaDeCategorias=(List<String>)request.getAttribute("listaDeCategorias");
-		if(listaDeCategorias != null) System.out.println("no null");
-		else System.out.println("Null");
 		for(String categoria:listaDeCategorias) {
 		if (categoria.equals(request.getParameter("categoria"))){
 		%>
