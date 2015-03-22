@@ -24,7 +24,7 @@ font-weigth:bold;
 <body>
 	<fieldset>
 		<legend>Formulario alta Libro</legend>
-		<form id="miformulario" action="ControladorLibros" onsubmit="return validacion();">
+		<form id="miformulario" action="InsertarLibro.do" onsubmit="return validacion();">
 			<p>
 				<label for="isbn">ISBN</label>: <input id="isbn" type="text"
 					name="isbn" />

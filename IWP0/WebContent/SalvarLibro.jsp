@@ -6,4 +6,4 @@ String titulo= request.getParameter("titulo");
 String categoria= request.getParameter("categoria");
 Libro libro= new Libro(isbn,titulo,categoria);
 libro.salvar();
-response.sendRedirect("ControladorLibros");%>
+response.sendRedirect("MostrarLibros.do");%>
